@@ -19,8 +19,6 @@ public class ItemTest {
 
         item.setPrice(100);
         Assert.assertEquals(100, item.getPrice());
-
-
-
     }
+
 }
