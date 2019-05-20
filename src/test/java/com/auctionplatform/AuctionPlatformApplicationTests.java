@@ -1,4 +1,4 @@
-package com.auctionplatform.items;
+package com.auctionplatform;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

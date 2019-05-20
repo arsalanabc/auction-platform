@@ -1,4 +1,4 @@
-package com.auctionplatform.items;
+package com.auctionplatform.item;
 
 
 import org.springframework.stereotype.Controller;

@@ -1,4 +1,4 @@
-package com.auctionplatform.items;
+package com.auctionplatform;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
