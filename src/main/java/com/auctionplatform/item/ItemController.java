@@ -9,19 +9,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class ItemController {
+    private ItemService itemService = new ItemService();
 
     @GetMapping("/items")
     @ResponseBody
     public String getItem() {
-        Item item = new Item(0, "item name");
-        ObjectMapper mapper = new ObjectMapper();
-        String jsonString = null;
-        try {
-            jsonString = mapper.writeValueAsString(item);
-        } catch (JsonProcessingException e) {
-            e.printStackTrace();
-        }
-        return jsonString;
+        return itemService.getJSONItems();
     }
 
 
